@@ -16,7 +16,9 @@ function Home({ navigation }) {
 
   const handlePurchases = () => {};
 
-  const handleAbout = () => {};
+  const handleAbout = () => {
+    navigation.navigate('About');
+  };
 
   const data = [
     { id: 1, content: {} },
