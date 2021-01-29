@@ -3,7 +3,6 @@
     "androidNavigationBar": {
       "visible": "immersive"
     },
-
     "name": "desafio-midia3",
     "slug": "desafio-midia3",
     "version": "1.0.0",
@@ -17,7 +16,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -26,7 +27,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "softwareKeyboardLayoutMode": "pan"
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "io.expo.clientndefined"
     },
     "web": {
       "favicon": "./assets/favicon.png"

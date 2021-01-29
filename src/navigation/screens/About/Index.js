@@ -36,22 +36,18 @@ function About({ navigation }) {
         </S.ProfileContainer>
 
         <S.TextBlockContainer>
-          <S.TextBoxTitle>Criador</S.TextBoxTitle>
+          <S.TextBoxTitle>Versão</S.TextBoxTitle>
 
-          <S.TextBoxContent>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            rhoncus erat nec neque iaculis mollis. Donec leo purus, consequat
-            sed turpis id, posuere imperdiet turpis.
-          </S.TextBoxContent>
+          <S.TextBoxContent>1.0.0</S.TextBoxContent>
         </S.TextBlockContainer>
 
         <S.TextBlockContainer>
           <S.TextBoxTitle>Projeto</S.TextBoxTitle>
 
           <S.TextBoxContent>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            rhoncus erat nec neque iaculis mollis. Donec leo purus, consequat
-            sed turpis id, posuere imperdiet turpis.
+            A aplicação deverá ser apenas para Android. Ao iniciar, abrir um
+            loader. Após o loader, aproximadamente 5s, o App deverá apresentar
+            um menu hamburguer: “Minha conta”, “Meus Pedidos” e “Sobre”.
           </S.TextBoxContent>
         </S.TextBlockContainer>
 
@@ -59,9 +55,8 @@ function About({ navigation }) {
           <S.TextBoxTitle>Agradecimentos</S.TextBoxTitle>
 
           <S.TextBoxContent>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            rhoncus erat nec neque iaculis mollis. Donec leo purus, consequat
-            sed turpis id, posuere imperdiet turpis.
+            Desde já agradeço a entrevista de emprego que me foi concedida. Foi
+            um prazer poder estar participando e mostrando meus conhecimentos.
           </S.TextBoxContent>
         </S.TextBlockContainer>
       </S.Body>
